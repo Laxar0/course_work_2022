@@ -4,6 +4,18 @@
   font-family: "Nunito", sans-serif;
 }
 
+:root{
+  --c1: #A4EBED;
+  --c2:#5EEBF0;
+  --c3:#80B8BA;
+  --c4:#4C6D6E;
+  --c5:#2B6B6E;
+}
+
+body{
+  background-color: var(--c3);
+}
+
 header {
   position: fixed;
   top: 0;
@@ -14,6 +26,7 @@ header .menu {
   display: flex;
   justify-content: space-between;
   padding: 5px;
+  margin-left: -10px;
   font-size: 170%;
   background-color: #242323;
   color: white;
@@ -51,9 +64,10 @@ header .menu ul li a:hover {
 }
 
 aside{
-    background-color: gray;
+    background-color: var(--c4);
     max-width: 200px;
     height: 100%;
+    margin-left:-10px;
 }
 
 .item{
@@ -65,7 +79,7 @@ aside{
   width: 400px;
   height: fit-content;
   min-height: 110%;
-  border: 4px solid navy;
+  border: 4px solid var(--c5);
   align-items: center;
   justify-content: space-between;
 }
@@ -84,7 +98,7 @@ aside{
 .item .button {
   background-color: black;
   border-radius: 15px;
-  width: 140px;
+  width: 160px;
   margin:auto;
   margin-bottom: 20px;
   text-align: center;
@@ -97,5 +111,6 @@ aside{
 
 .button a{
   text-decoration: none;
-  color: #a4ebed;
+  color: var(--c2);
+  font-size: 16px;
 }
