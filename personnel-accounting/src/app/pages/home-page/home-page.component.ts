@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { products } from 'src/app/data/products';
 import { IProduct } from 'src/app/models/product';
 
 @Component({
@@ -7,5 +8,5 @@ import { IProduct } from 'src/app/models/product';
   styleUrls: ['./home-page.component.scss'],
 })
 export class HomePageComponent {
-  products: IProduct[] = [];
+  products: IProduct[] = products;
 }

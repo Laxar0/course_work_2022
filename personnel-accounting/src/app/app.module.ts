@@ -9,9 +9,21 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
 import { AboutPageComponent } from './pages/about-page/about-page.component';
 import { PersonnelPageComponent } from './pages/personnel-page/personnel-page.component';
 import { FaqPageComponent } from './pages/faq-page/faq-page.component';
+import { QuestionComponent } from './components/question/question.component';
+import { SoldierComponent } from './components/soldier/soldier.component';
 
 @NgModule({
-  declarations: [AppComponent, ProductComponent, NavigationComponent, HomePageComponent, AboutPageComponent, PersonnelPageComponent, FaqPageComponent],
+  declarations: [
+    AppComponent,
+    ProductComponent,
+    NavigationComponent,
+    HomePageComponent,
+    AboutPageComponent,
+    PersonnelPageComponent,
+    FaqPageComponent,
+    QuestionComponent,
+    SoldierComponent,
+  ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
