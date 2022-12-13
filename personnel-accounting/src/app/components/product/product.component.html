@@ -2,6 +2,6 @@
     <img [src]="product.image" [alt]="product.title">
     <h2 class="name">{{ product.title }}</h2>
     <p class="description">{{ product.description }}</p>
-    <button class="button" (click)="details=!details"> {{ details ? 'Приховати' : 'Показати'}} детальну інформацію</button>
+    <button class="button" (click)="details=!details"> {{ details ? 'Приховати' : 'Показати'}} деталі</button>
     <p *ngIf="details">{{ product.info }}</p>
 </div>
