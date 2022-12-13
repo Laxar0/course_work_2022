@@ -1,0 +1,36 @@
+/* full_info.html */
+.info {
+  margin: auto;
+  margin-top: 0;
+}
+
+.info h3 {
+  text-align: center;
+  font-weight: 800;
+}
+
+.info .availability {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 1px solid red;
+}
+
+.info .availability .military {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 0;
+  font-size: 23px;
+}
+
+.for_details {
+  font-size: 18px;
+}
+
+.info .amount img {
+  height: 200px;
+}
+
+.info .amount {
+  display: flex;
+  align-items: center;
+}
