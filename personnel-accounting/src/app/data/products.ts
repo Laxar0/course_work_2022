@@ -11,7 +11,7 @@ export const products: IProduct[] = [
   },
   {
     id: 2,
-    image: '../IMG/clothing.png',
+    image: '../IMG/shoes.png',
     title: 'Взуття',
     description:
       'Номенклатура черевиків, берців, кросівок, які використовуються в арміях світу для ведення бойових дій, повсякденного носіння та тренувань.',
@@ -19,7 +19,7 @@ export const products: IProduct[] = [
   },
   {
     id: 3,
-    image: '../IMG/clothing.png',
+    image: '../IMG/armor.png',
     title: 'Захист',
     description: 'Набір захисного спорядження військовослужбовців.',
     info: '',
