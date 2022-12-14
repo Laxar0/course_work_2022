@@ -8,4 +8,6 @@ import { ISoldier } from 'src/app/models/soldier';
 })
 export class SoldierComponent {
   @Input() soldier: ISoldier;
+
+  details = false;
 }

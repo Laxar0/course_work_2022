@@ -1,6 +1,7 @@
 <div class="item2">
     <h3>{{ soldier.name }}</h3>
-    <p>Наявність одягу: {{ soldier.clothing }}</p>
-    <p>Наявність взуття: {{ soldier.shoes }}</p>
-    <p>Наявність елементів захисту: {{ soldier.armor }}</p>
+    <button class="button" (click)="details=!details"> {{ details ? 'Приховати' : 'Показати'}} наявність</button>
+    <p *ngIf="details">Наявність одягу: {{ soldier.clothing }}</p>
+    <p *ngIf="details">Наявність взуття: {{ soldier.shoes }}</p>
+    <p *ngIf="details">Наявність елементів захисту: {{ soldier.armor }}</p>
 </div>
